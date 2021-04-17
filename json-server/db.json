@@ -1,0 +1,51 @@
+{
+  "cards": [
+    {
+      "name": "x x x x 3966",
+      "working": false,
+      "balance": 100,
+      "id": 1,
+      "logo": "https://api.iconify.design/grommet-icons:mastercard.svg",
+      "description": "Текущая карта"
+    },
+    {
+      "name": "x x x x 3966",
+      "working": true,
+      "balance": 234,
+      "id": 2,
+      "logo": "https://belkart.by/upload/resize_cache/iblock/96e/141_200_1/logotip-belkart-v-odnom-tsvete.png",
+      "description": "Карта #2"
+    }
+  ],
+  "journals": [
+    {
+      "date": "25.04.2020",
+      "variant": "Перевод на карту",
+      "amount": 6.56,
+      "id": 1
+    }
+  ],
+  "favorites": [
+    {
+      "name": "MTC",
+      "code": "678903",
+      "id": 1,
+      "amount": 13,
+      "source": 2
+    },
+    {
+      "name": "byFly",
+      "code": "170006798",
+      "id": 2,
+      "amount": 21,
+      "source": 1
+    }
+  ],
+  "users": [
+    {
+      "username": "172456543",
+      "password": "password",
+      "id": 1
+    }
+  ]
+}

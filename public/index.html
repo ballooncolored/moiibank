@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Мой Банк</title>
+     <link rel="shortcut icon" href="<%= BASE_URL %>yellow.png" type="image/png">
+     <link rel="stylesheet" href="//brick.freetls.fastly.net/Lato:400,700">
+
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but vue-3-base doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script>
+          new Splide( '.splide' ).mount();
+      new Splide( '.splide2' ).mount();
+    </script>
+  </body>
+    <script  src="https://cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.1/js/selectize.min.js"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.1/js/standalone/selectize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.1/css/selectize.bootstrap3.min.css">
+    <script  src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    
+    <script>
+  new Glide('.glide').mount()
+</script>
+    
+    <script>
+      var dropdown = document.getElementsByClassName("dropdown-btn"); var i; for (i = 0; i < dropdown.length; i++) { dropdown[i].addEventListener("click", function() { this.classList.toggle("active"); var dropdownContent = this.nextElementSibling; if (dropdownContent.style.display === "block") { dropdownContent.style.display = "none"; } else { dropdownContent.style.display = "block"; } }); };
+      var eye = document.getElementsByClassName("input-eye-icon"); var i; for (i = 0; i < eye.length; i++) { eye[i].addEventListener("click", function() { this.classList.toggle("active"); var eyeInput = this.previousElementSibling; if (eyeInput.type === "text") { eyeInput.type = "password"; } else { eyeInput.type = "text"; } }); };
+
+      $('#select-payment').selectize({
+        sortField: 'text'
+      });
+      $('#select-payment2').selectize({
+        sortField: 'text'
+      });
+    </script>
+    <script type="text/javascript">
+      $( ".toggle-close" ).click(function() {
+        $(".chat-widget").toggleClass( "hide" );
+      });
+
+      $( ".help-button" ).click(function() {
+        $(".chat-widget").toggleClass( "hide" );
+      });
+</script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.2.3/dist/css/glide.core.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="<%= BASE_URL %>nanobar.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link rel="stylesheet" href="<%= BASE_URL %>styles.css">
+<script>
+new Splide( '.splide' ).mount();
+new Splide( '.splide2' ).mount();
+</script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.js-example-basic-single').select2({
+  data: this.myDataOrigin
+}).on('change', function () {
+  this.myVueVariable = $(this).select2("val");
+});
+});
+</script
+
+
+</html>
