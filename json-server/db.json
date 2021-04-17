@@ -2,7 +2,7 @@
   "cards": [
     {
       "name": "x x x x 3966",
-      "working": false,
+      "working": true,
       "balance": 100,
       "id": 1,
       "logo": "https://api.iconify.design/grommet-icons:mastercard.svg",
